@@ -10,5 +10,5 @@ var server = OrientDB({
 var db = server.use('GratefulDeadConcerts');
 
 db.query('select from V', {}).then(function (results){
-    console.log(results);
+    console.log(results.length);
 });

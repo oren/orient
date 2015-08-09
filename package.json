@@ -1,0 +1,23 @@
+{
+  "name": "orient",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oren/orient.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oren/orient/issues"
+  },
+  "homepage": "https://github.com/oren/orient#readme",
+  "dependencies": {
+    "orientjs": "^2.0.0"
+  }
+}
